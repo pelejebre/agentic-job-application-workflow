@@ -1,0 +1,8 @@
+*.html
+*.jpg
+*.pdf
+CV.md
+.env
+analyzed_offers/
+.atl/
+openspec/
