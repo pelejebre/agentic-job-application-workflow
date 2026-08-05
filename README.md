@@ -12,6 +12,18 @@
 <div align="center">
   <h1>Agentic Job Application Workflow</h1>
   <p><em>Intelligent automation to tailor your resume and generate cover letters using AI</em></p>
+
+  <p align="center">
+    <a href="#"><img src="https://img.shields.io/badge/Workflow-Agentic-blueviolet?style=flat-square" alt="Agentic Workflow"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Shell-Bash%20%7C%20PowerShell-4ae0e1?style=flat-square&logo=gnu-bash" alt="Shell Support"></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"></a>
+    <a href="https://developer.mozilla.org/en-US/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"></a>
+    <a href="https://www.google.com/chrome/"><img src="https://img.shields.io/badge/PDF-Chromium%20Headless-00a3ee?style=flat-square&logo=google-chrome&logoColor=white" alt="PDF Compilation"></a>
+  </p>
+
+  <p align="center">
+    ⭐ If you like this project, star it on GitHub — it helps a lot!
+  </p>
 </div>
 
 ## Summary
@@ -120,8 +132,8 @@ Follow these steps to set up the workflow in your local environment:
    Open the newly created `.env` file and fill in the candidate's personal and contact information.
 3. **Prepare your base data:**
 
-   - Place your master resume in Markdown format in [`data/CV.md`](file:///e:/Documentos/_DEV/agentic-job-application-workflow/data/CV.md). This file serves as the single source of truth for the AI.
-   - Save your professional photograph in [`data/CV_foto.jpg`](file:///e:/Documentos/_DEV/agentic-job-application-workflow/data/CV_foto.jpg) (which will be linked by the templates).
+   - Place your master resume in Markdown format in [data/CV.md](data/CV.md). This file serves as the single source of truth for the AI.
+   - Save your professional photograph in [data/CV_foto.jpg](data/CV_foto.jpg) (which will be linked by the templates).
 4. **PDF Printing Requirements:**
    To headlessly compile HTML files into PDFs using the `pdf_printer` skill, ensure a Chromium-based browser is installed on your system:
 

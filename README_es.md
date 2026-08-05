@@ -12,6 +12,18 @@
 <div align="center">
   <h1>Agentic Job Application Workflow</h1>
   <p><em>Automatización inteligente para adaptar tu CV y generar cartas de presentación mediante IA</em></p>
+
+  <p align="center">
+    <a href="#"><img src="https://img.shields.io/badge/Flujo-Ag%C3%A9ntico-blueviolet?style=flat-square" alt="Flujo Agéntico"></a>
+    <a href="#"><img src="https://img.shields.io/badge/Terminal-Bash%20%7C%20PowerShell-4ae0e1?style=flat-square&logo=gnu-bash" alt="Soporte de Terminal"></a>
+    <a href="https://developer.mozilla.org/es/docs/Web/HTML"><img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5"></a>
+    <a href="https://developer.mozilla.org/es/docs/Web/CSS"><img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3"></a>
+    <a href="https://www.google.com/chrome/"><img src="https://img.shields.io/badge/PDF-Chromium%20Headless-00a3ee?style=flat-square&logo=google-chrome&logoColor=white" alt="Compilación PDF"></a>
+  </p>
+
+  <p align="center">
+    ⭐ Si te gusta este proyecto, ¡dale una estrella en GitHub, ayuda un montón!
+  </p>
 </div>
 
 ## Resumen
@@ -120,8 +132,8 @@ Sigue estos pasos para poner en marcha el flujo de trabajo en tu entorno local:
    Abre el archivo `.env` recién creado y completa los datos personales y de contacto del candidato.
 3. **Preparar tus datos base:**
 
-   - Coloca tu currículum maestro en formato Markdown en [`data/CV.md`](file:///e:/Documentos/_DEV/agentic-job-application-workflow/data/CV.md). Este archivo sirve como única fuente de verdad para la IA.
-   - Guarda tu fotografía profesional en [`data/CV_foto.jpg`](file:///e:/Documentos/_DEV/agentic-job-application-workflow/data/CV_foto.jpg) (la cual será enlazada por las plantillas).
+   - Coloca tu currículum maestro en formato Markdown en [data/CV.md](data/CV.md). Este archivo sirve como única fuente de verdad para la IA.
+   - Guarda tu fotografía profesional en [data/CV_foto.jpg](data/CV_foto.jpg) (la cual será enlazada por las plantillas).
 4. **Requisitos de Impresión a PDF:**
    Para compilar de forma desatendida los archivos HTML a PDF mediante la habilidad `pdf_printer`, asegúrate de tener instalado en tu sistema un navegador basado en Chromium:
 
