@@ -79,7 +79,7 @@ Cuando se active esta skill, realiza los siguientes pasos de forma secuencial:
    * "Idiomas" -> "Languages"
    * "Puntos Fuertes" -> "Strengths"
    * "Competencias Transversales" -> "Key Skills" o "Soft Skills"
-   * Campos de contacto: "Dirección: [CANDIDATE_ADDRESS]" -> "Address: [CANDIDATE_ADDRESS]", "Teléfono: [CANDIDATE_PHONE]" -> "Phone: [CANDIDATE_PHONE]".
+   * Campos de contacto: "Dirección: [CANDIDATE_ADDRESS]" -> "Address: [CANDIDATE_ADDRESS]", "Teléfono: [CANDIDATE_PHONE]" -> "Phone: [CANDIDATE_PHONE]". Asegúrate de formatear la dirección al estilo inglés: si contiene la abreviatura española "C/" para calle, cámbiala por "St." o "Street" y ajusta el orden (ej. "1 Alameda Hnos. Muñoz St.").
 7. Reemplaza las secciones correspondientes de la plantilla elegida del CV con los textos adaptados.
 8. Lee el valor de `OUTPUT_DIR` desde el archivo `.env` en la raíz del proyecto (por defecto `./analyzed_offers`). Escribe el archivo HTML final en `[OUTPUT_DIR]/<ID_OFERTA>_cv.html` (o `[OUTPUT_DIR]/<ID_OFERTA>_cv_en.html` si es en inglés), resolviendo la ruta relativa a la raíz del proyecto (ej. `../../../[OUTPUT_DIR]/<ID_OFERTA>_cv.html`).
 9. **Apertura automática:** Lanza un comando de sistema (ej. `Start-Process` en PowerShell en Windows) para abrir de forma directa el archivo HTML generado en el navegador web predeterminado del usuario para su revisión inmediata.

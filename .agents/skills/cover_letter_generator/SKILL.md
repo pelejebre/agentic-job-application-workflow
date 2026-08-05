@@ -59,7 +59,7 @@ Cuando se active esta skill, realiza los siguientes pasos de forma secuencial:
    - `[CANDIDATE_GITHUB]`: Valor de `CANDIDATE_GITHUB`.
 5. **Manejo de Campos Vacíos (Opción A):** Si alguna variable opcional (`CANDIDATE_LINKEDIN`, `CANDIDATE_GITHUB`) está vacía o no existe en el `.env`, el agente DEBE eliminar físicamente el elemento HTML correspondiente del archivo final (por ejemplo, el bloque `<div class="contact-item" id="contact-linkedin">` o `<div class="contact-item" id="contact-github">`).
 6. Si el idioma es **Inglés**, realiza las siguientes traducciones:
-   - Traduce etiquetas de contacto estáticas en la plantilla (ej. cambiar texto en el bloque de dirección o etiquetas si aplica, "Asunto" -> "Subject", "Atentamente" -> "Sincerely").
+    - Traduce etiquetas de contacto estáticas en la plantilla (ej. cambiar texto en el bloque de dirección o etiquetas si aplica, "Asunto" -> "Subject", "Atentamente" -> "Sincerely"). Asegúrate de formatear la dirección [CANDIDATE_ADDRESS] al estilo inglés si se detecta la abreviatura "C/" para calle (ej. "1 Alameda Hnos. Muñoz St." en vez de "C/Alameda Hnos. Muñoz, 1").
 7. Reemplaza los placeholders dinámicos de la oferta en la plantilla:
    - `[FECHA_DE_HOY]`: Fecha de ejecución actual (ej. en inglés: "August 5, 2026"; en español: "5 de agosto de 2026").
    - `[RESPONSABLE_SELECCION]`: Nombre del reclutador (o "Responsable de Selección" / "Hiring Manager" si no se conoce).

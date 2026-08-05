@@ -4,5 +4,6 @@
 CV.md
 .env
 analyzed_offers/
+analyzed_offers/reviewed/*.md
 .atl/
 openspec/
